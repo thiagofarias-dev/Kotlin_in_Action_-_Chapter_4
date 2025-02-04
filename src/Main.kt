@@ -1,7 +1,8 @@
 fun main() {
     //example_4_2()
     //example_4_3()
-    example_4_5()
+    //example_4_5()
+    example_4_7()
 
 
 }
@@ -19,4 +20,9 @@ fun example_4_5(){
     button.showOff()
     button.setFocus(true)
     button.click()
+}
+
+fun example_4_7(){
+    val button = RichButton()
+    button.showOff()
 }
